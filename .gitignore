@@ -35,3 +35,18 @@ out/
 
 ### VS Code ###
 .vscode/
+
+# Security: local secrets and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_rsa.*
+credentials.json
+*.secrets.json
